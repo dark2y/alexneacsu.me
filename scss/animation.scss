@@ -3,29 +3,26 @@
 
     position: relative;
 
-    &:hover, &:active {
-
-        &::before {
-            content: attr(data-text);
-            position: absolute;
-            left: -2px;
-            text-shadow: -5px 0 magenta;
-            overflow: hidden;
-            top: 0;
-            animation: noise-1 3s linear infinite alternate-reverse, 
-            fudge 5s linear alternate-reverse infinite, 
-        }
-        
-        &::after {
-            content: attr(data-text);
-            position: absolute;
-            left: 2px;
-            text-shadow: -5px 0 lightgreen;
-            overflow: hidden;
-            top: 0;
-            animation: noise-2 3s linear infinite alternate-reverse,
-            fudge 5s linear alternate-reverse infinite, 
-        }
+    &::before {
+        content: attr(data-text);
+        position: absolute;
+        left: -2px;
+        text-shadow: -5px 0 magenta;
+        overflow: hidden;
+        top: 0;
+        animation: noise-1 10s linear infinite alternate-reverse, 
+        fudge 5s linear alternate-reverse infinite, 
+    }
+    
+    &::after {
+        content: attr(data-text);
+        position: absolute;
+        left: 2px;
+        text-shadow: -5px 0 lightgreen;
+        overflow: hidden;
+        top: 0;
+        animation: noise-2 10s linear infinite alternate-reverse,
+        fudge 5s linear alternate-reverse infinite, 
     }
 
 }
