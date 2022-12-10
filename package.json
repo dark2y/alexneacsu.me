@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/dark2y/dark2y.github.io#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.8",
     "gulp-clean-css": "^3.9.2",
     "gulp-connect": "^5.2.0",
