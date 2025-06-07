@@ -7,7 +7,7 @@ html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -web
 /** Remove default margin, overscroll and set background */
 body { margin: 0;  }
 
-html, body { height: 100%; overscroll-behavior-y: none; background: #fff; }
+html, body { height: 100%; overscroll-behavior-y: none; }
 
 /* HTML5 display definitions ========================================================================== */
 /** Correct `block` display not defined for any HTML5 element in IE 8/9. Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox. Correct `block` display not defined for `main` in IE 11. */
