@@ -4,8 +4,10 @@
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using `em` units. */
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
-/** Remove default margin. */
-body { margin: 0; overscroll-behavior-y: none; }
+/** Remove default margin, overscroll and set background */
+body { margin: 0;  }
+
+html, body { height: 100%; overscroll-behavior-y: none; background: #fff; }
 
 /* HTML5 display definitions ========================================================================== */
 /** Correct `block` display not defined for any HTML5 element in IE 8/9. Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox. Correct `block` display not defined for `main` in IE 11. */
