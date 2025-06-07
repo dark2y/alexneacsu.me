@@ -5,5 +5,5 @@ git commit -m "Local changes before deployment"
 git pull origin master
 
 git checkout gh-pages
-git merge --no-ff master
+git merge --no-ff origin/master
 git push origin gh-pages

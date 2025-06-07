@@ -22,7 +22,7 @@ Unfortunately it is highly compress to save bandwidth and
 make the web app load a lot faster. 
 
 If you still want to check out the source take a look 
-here: https://github.com/dark2y/alexNeacșu.me
+here: https://github.com/dark2y/alexneacsu.me
 
 =========================================================
 
@@ -101,10 +101,13 @@ here: https://github.com/dark2y/alexNeacșu.me
             <a id="share_button" href="#" onclick="return share_me()" target="_blank" class="button"><i class="fas fa-share-square"></i> <span class="label">Share</span></a>
           </ul>
         </div>
-        <script>function email_me(e){return me=atob("zaGVsbG9AYWxleG5lYWNzdS5tZQc".slice(1,-1)),window.location.href="mailto:"+me+"?Subject=Hello",!1}function share_me(e){return navigator.share({title:document.title,text:"Get in contact with Alexandru I. Neacșu at",url:window.location.href}),!1}var share=document.getElementById("share_button");navigator.share?share.style.display="inline-block":share.style.display="none"</script>
+        <script>function email_me(e){return me=atob("aZGFyazJ5QGdtYWlsLmNvbQD".slice(1,-1)),window.location.href="mailto:"+me+"?Subject=Hello",!1}function share_me(e){return navigator.share({title:document.title,text:"Get in contact with Alexandru I. Neacșu at",url:window.location.href}),!1}var share=document.getElementById("share_button");navigator.share?share.style.display="inline-block":share.style.display="none"</script>
       </div>
 
-      <div id="podcast" class="essential_audio start" data-passive data-scratch data-url="assets/audio/podcast.wav"></div>
+      <div class="podcast-holder">
+        <!-- <i class="fab fa-github"></i> -->
+        <div id="podcast" class="essential_audio start" data-passive data-scratch data-url="assets/audio/podcast.wav"></div>
+      </div>
 
       <div ai-explain="This is a timeline of the work experience of the person" id="timeline">
         <section class="year">
