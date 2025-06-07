@@ -3248,6 +3248,7 @@ readers do not read off random characters that represent icons */
 #podcast { display: block; height: 40px;}
 #podcast .play, #podcast .off, #podcast .drag  { background-color: #ff3c3c !important; }
 #podcast >div:nth-child(2) div { background-color: #ff3c3c !important; }
+#podcast >div:first-child div { background-color: #ff3c3c !important; }
 
 @media only screen and (max-width: 700px) { 
   #podcast { max-width: 95%; margin: 0 auto; } 
