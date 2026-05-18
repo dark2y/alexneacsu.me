@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-git commit -m "Local changes before deployment"
+git commit -m "Updated at $(date)"
 git push origin master
 
 git checkout gh-pages
