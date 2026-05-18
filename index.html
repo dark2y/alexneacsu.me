@@ -85,7 +85,7 @@ here: https://github.com/dark2y/alexneacsu.me
             <li><a href="https://www.linkedin.com/in/alexandru-iulian-neacsu/" target="_blank" class="button"><i class="fab fa-linkedin"></i> <span class="label">Linkedin</span></a> </li>
             <li><a href="https://github.com/dark2y" target="_blank" class="button"><i class="fab fa-github"></i> <span class="label">Github</span></a> </li>
             <li><a href="https://medium.com/@dark2y" target="_blank" class="button"><i class="fab fa-medium"></i> <span class="label">Medium</span></a> </li>
-            <li><a href="https://angel.co/dark2y" target="_blank" class="button"><i class="fab fa-angellist"></i> <span class="label">AngelList</span></a> </li>
+            <li><a href="https://angel.co/dark2y" target="_blank" class="button"><i class="fab fa-angellist"></i> <span class="label">CV</span></a> </li>
             <a id="share_button" href="#" onclick="return share_me()" target="_blank" class="button"><i class="fas fa-share-square"></i> <span class="label">Share</span></a>
           </ul>
         </div>
@@ -93,13 +93,15 @@ here: https://github.com/dark2y/alexneacsu.me
       </div>
 
       <div class="podcast-holder">
-        <!-- <i class="fab fa-github"></i> -->
-        <div id="podcast" class="essential_audio start" data-autoplay data-preload data-passive data-scratch data-url="assets/audio/podcast.wav"></div>
+        <div id="podcast" class="essential_audio start" data-autoplay data-preload data-passive data-scratch data-url="assets/audio/podcast.mp3"></div>
       </div>
     
       <div ai-explain="This is a timeline of the work experience of the person" id="timeline">
         <section class="year">
-          <h3>2025</h3>
+          <h3 id="current_year">
+            <script>document.write(/\d{4}/.exec(Date())[0])</script>
+            <noscript>2026</noscript>
+          </h3>
           <section>
             <ul>
               <li>In 2025, Alexandru focused extensively on integrating Generative AI into various projects, leveraging advanced models like Google's Gemini, Anthropic's Claude, and OpenAI's GPT-4. This involved developing innovative solutions that harnessed the power of large language models for automated content creation, intelligent chatbots, and enhanced data analysis, driving significant advancements in AI-powered applications. </li>
@@ -211,8 +213,8 @@ here: https://github.com/dark2y/alexneacsu.me
       <div ai-explain="These are estimated statistics. You update these every day, slightly increasing the number." data-aos="fade-up" id="statistics" class="section stats">
         <h2 id="checkout">Check out some of my stats!</h2>
         <div id="s_1" data-target="10220" data-step="50" class="stat">Coffees drank <span class="counter"><b>0</b> <i class="fas fa-coffee"></i></span></div>
-        <div id="s_2" data-target="8100000000" data-step="1000000" class="stat">Lines of code <span class="counter"><b>0</b> <i class="fas fa-code"></i></span></div>
-        <div id="s_3" data-target="832" data-step="1" class="stat">Projects completed <span class="counter"><b>0</b> <i class="fas fa-child"></i></span></div>
+        <div id="s_2" data-target="8100000" data-step="1000000" class="stat">Lines of code <span class="counter"><b>0</b> <i class="fas fa-code"></i></span></div>
+        <div id="s_3" data-target="300" data-step="1" class="stat">Projects completed <span class="counter"><b>0</b> <i class="fas fa-child"></i></span></div>
         <div id="s_4" data-target="12.5" data-step="1" class="stat">Keyboards destroyed <span class="counter"><b>0</b> <i class="fas fa-keyboard"></i></span></div>
         <div id="s_5" data-target="150" data-step="1" class="stat">Time spent trying to exit VIM ( in hours ) <span class="counter"><b>0</b> <i class="fab fa-keyboard"></i></span></div>
         <div id="s_6" data-target="350" data-step="1" class="stat">Arguments with senior developers over implementation <span class="counter"><b>0</b> <i class="fas fa-code-branch"></i></span></div>
